@@ -75,7 +75,7 @@ const Navbar = () => {
           className="flex items-center gap-3 group cursor-pointer"
         >
           <div className="w-12 h-12 rounded-full overflow-hidden shadow-lg group-hover:rotate-360 transition-transform duration-700 border border-sand">
-            <img src="/img/logo.jpg" alt="Aura Bern Logo" className="w-full h-full object-cover" />
+            <img src="img/logo.jpg" alt="Aura Bern Logo" className="w-full h-full object-cover" />
           </div>
           <span className="font-serif text-2xl tracking-tight text-primary font-semibold">Aura Bern</span>
         </motion.div>
@@ -242,7 +242,7 @@ export default function App() {
           className="absolute inset-0 z-0"
         >
           <img 
-            src="/img/hero.png" 
+            src="img/hero.png" 
             alt="Aura Bern Salon" 
             className="w-full h-full object-cover"
           />
@@ -316,7 +316,7 @@ export default function App() {
               transition={{ duration: 0.5 }}
               className="aspect-4/5 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white"
             >
-              <img src="/img/treatment-1.png" alt="Behandlung" className="w-full h-full object-cover" />
+              <img src="img/treatment-1.png" alt="Behandlung" className="w-full h-full object-cover" />
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, scale: 0.5, rotate: -10 }}
@@ -374,9 +374,9 @@ export default function App() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             {[
-              { icon: Droplets, image: "/img/treatment-1.png", title: "Gesichtspflege", text: "Maßgeschneiderte Treatments von der Hydrafacial-Tiefenreinigung bis zum RF-Lifting für ein strahlendes Hautbild." },
-              { icon: Zap, image: "/img/treatment-2.png", title: "Body Styling", text: "Velashape und Lymphdrainage für eine definierte Silhouette und tiefenwirksame Regeneration des Gewebes." },
-              { icon: Leaf, image: "/img/treatment-1.png", title: "Medical Beauty", text: "Zielgerichtete Problemlösungen für Akne, Pigmentstörungen und Couperose mit nachhaltigem Heilungserfolg." }
+              { icon: Droplets, image: "img/treatment-1.png", title: "Gesichtspflege", text: "Maßgeschneiderte Treatments von der Hydrafacial-Tiefenreinigung bis zum RF-Lifting für ein strahlendes Hautbild." },
+              { icon: Zap, image: "img/treatment-2.png", title: "Body Styling", text: "Velashape und Lymphdrainage für eine definierte Silhouette und tiefenwirksame Regeneration des Gewebes." },
+              { icon: Leaf, image: "img/treatment-1.png", title: "Medical Beauty", text: "Zielgerichtete Problemlösungen für Akne, Pigmentstörungen und Couperose mit nachhaltigem Heilungserfolg." }
             ].map((s, i) => (
               <ServiceCard 
                 key={i}
@@ -449,9 +449,9 @@ export default function App() {
           
           <div className="grid md:grid-cols-3 gap-16">
             {[
-              { name: "Guy", role: "Gründer & Lead Expert", bio: "Visionär in der modernen Kosmetik mit internationaler Expertise.", img: "/img/team/guy.png" },
-              { name: "Florence", role: "Skin Tech Specialist", bio: "Fokussiert auf die perfekte Kombination von Wirkstoffen und Technik.", img: "/img/team/florence.png" },
-              { name: "Julia", role: "Wellness & Spa Manager", bio: "Meisterin der Entspannung und ganzheitlichen Pflegekonzepte.", img: "/img/team/julia.png" }
+              { name: "Guy", role: "Gründer & Lead Expert", bio: "Visionär in der modernen Kosmetik mit internationaler Expertise.", img: "img/team/guy.png" },
+              { name: "Florence", role: "Skin Tech Specialist", bio: "Fokussiert auf die perfekte Kombination von Wirkstoffen und Technik.", img: "img/team/florence.png" },
+              { name: "Julia", role: "Wellness & Spa Manager", bio: "Meisterin der Entspannung und ganzheitlichen Pflegekonzepte.", img: "img/team/julia.png" }
             ].map((member, i) => (
               <motion.div 
                 key={i}
@@ -553,7 +553,7 @@ export default function App() {
             className="flex items-center justify-center gap-3 mb-10"
           >
             <div className="w-12 h-12 rounded-full overflow-hidden border border-sand shadow-sm">
-              <img src="/img/logo.jpg" alt="Aura Bern Logo" className="w-full h-full object-cover" />
+              <img src="img/logo.jpg" alt="Aura Bern Logo" className="w-full h-full object-cover" />
             </div>
             <span className="font-serif text-3xl tracking-tight text-primary font-semibold">Aura Bern</span>
           </motion.div>
